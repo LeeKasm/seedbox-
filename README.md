@@ -84,6 +84,11 @@
      <h3>OK，出现这个提示就代表正在安装了，安装速度取决你服务器配置，目测10分钟不到全部装完。<br /></h3> 
      <p itemprop="description"><a href="https://post.smzdm.com/p/a767rnl/pic_26/" target="_blank"><img alt="#原创新人#服务器安装Rutorrent（PT盒子）Seedbox教程" src="https://qnam.smzdm.com/201801/22/5a65ab17e1efc7162.png_e600.jpg" title="" /></a></p> 
      <h3>出现这个界面，就代表了安装成功，上面也提供了网页后台的地址，就是你的http://IP/rutorrent&nbsp; 然后我们可以通过这个后台，用上面创建好的账号密码登录。就行了！</h3> 
+     <h3><b><em>5.2.</em></b>&nbsp;修改webui密码</h3> 
+     <p style="font-weight: 400;">执行以下命令</p> 
+     <p>htpasswd –c /etc/nginx/.htpasswd 新用户名</p> 
+     <p style="font-weight: 400;">然后回车，依次输入2次新的密码，然后刷新webui，修改完毕。</p> 
+     <p style="font-weight: 400;">如果没生效，执行&nbsp;<b><strong>/etc/init.d/nginx restart&nbsp;</strong></b>重启nginx即可。</p> 
      <p itemprop="description"><a href="https://post.smzdm.com/p/a767rnl/pic_27/" target="_blank"><img alt="#原创新人#服务器安装Rutorrent（PT盒子）Seedbox教程" src="https://am.zdmimg.com/201801/22/5a65ab82771784306.png_e600.jpg" title="" /></a></p> 
      <p itemprop="description"><br /></p> 
      <h3>登录后台，开始用的服务器进行下载吧！<br /></h3> 
@@ -92,7 +97,7 @@
      <p itemprop="description">rutorrent到此就算安装完毕了，你可以通过服务器下载种子了，至于怎么在线播放，以及如何把服务器上下好的文件拖回本地。或者是一些服务器速度方面的相关优化。我将会在下一章给大家详细介绍。本教程是基于Linux的，如果你有<a class="seo_link" href="https://pinpai.smzdm.com/2315/" target="_blank">群晖</a>或者装有Transmission的机器，可以直接使用无需在装rutorrent。我用rutorrent的主要原因是，在通过浏览器管理的下载工具中，算是功能强大的了，只不过只能下载种子文件，直链是无法下载的。所以具体怎么选择，需要考虑清楚。根据需求来定夺吧。</p> 
     </div> 
    </article> 
-  </div>      
+  </div> 
   <article> 
    <h1 itemprop="headline" class="item-name">家庭影音之路 篇二：PT盒子服务器参数优化以及Rutorrent设置调整</h1> 
    <div itemprop="description"> 
@@ -317,7 +322,7 @@
    </div> 
    <input type="hidden" id="isDetail" /> 
    <input type="hidden" id="channelID" value="11" /> 
-   <input type="hidden" id="articleID" value="654616" />      
+   <input type="hidden" id="articleID" value="654616" /> 
    <div class="leftWrap"> 
     <div class="poster-wraper"> 
      <div itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject" class="detailed_banner"> 
@@ -561,8 +566,8 @@
      <input type="hidden" id="isDetail" /> 
      <input type="hidden" id="channelID" value="11" /> 
      <input type="hidden" id="articleID" value="655850" /> 
-    </article>
-   </div>
-  </article>
+    </article> 
+   </div> 
+  </article>   
  </body>
 </html>
