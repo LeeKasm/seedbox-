@@ -86,7 +86,7 @@
      <h3>出现这个界面，就代表了安装成功，上面也提供了网页后台的地址，就是你的http://IP/rutorrent&nbsp; 然后我们可以通过这个后台，用上面创建好的账号密码登录。就行了！</h3> 
      <h3><b><em>5.2.</em></b>&nbsp;修改webui密码</h3> 
      <p style="font-weight: 400;">执行以下命令</p> 
-     <p>htpasswd –c /etc/nginx/.htpasswd 新用户名</p> 
+     <p>htpasswd -c  /etc/nginx/.htpasswd admin</p> 
      <p style="font-weight: 400;">然后回车，依次输入2次新的密码，然后刷新webui，修改完毕。</p> 
      <p style="font-weight: 400;">如果没生效，执行&nbsp;<b><strong>/etc/init.d/nginx restart&nbsp;</strong></b>重启nginx即可。</p> 
      <p itemprop="description"><a href="https://post.smzdm.com/p/a767rnl/pic_27/" target="_blank"><img alt="#原创新人#服务器安装Rutorrent（PT盒子）Seedbox教程" src="https://am.zdmimg.com/201801/22/5a65ab82771784306.png_e600.jpg" title="" /></a></p> 
