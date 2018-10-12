@@ -561,13 +561,13 @@
       <p itemprop="description"><strong>然后我们下载看看吧！(还是同1个文件噢，之前加速后是400KB/S，现在直接到11M/S了！)</strong></p> 
       <p itemprop="description"><a href="https://post.smzdm.com/p/aw3vkwg/pic_39/" target="_blank"><img alt="给服务器开启HTTP下载，并高速取回“云上”文件" src="https://am.zdmimg.com/201801/27/5a6b63c4cbdbe1097.png_e600.jpg" title="" /></a></p> 
       <p itemprop="description">第三篇的文章就此结束了，感谢大家的观看。至于第四篇的内容，我脑海中有很多构思，但是还没有办法做一个系统的规划。以至于怎么写、写什么、成了现在困扰我的问题。这个系列是以“家庭影音之路”为主题，那么所有的东西都是围绕这个进行的。我在想是否可以介绍一些硬件相关的了。毕竟开了3章都是在教大家如何下载资源。相信有需要的同学应该能获得一些帮助。那么我们第四章再见。<img alt="给服务器开启HTTP下载，并高速取回“云上”文件" src="https://res.smzdm.com/images/emotions/184.gif" class="face" />&nbsp;</p> 
-      <p itemprop="description">cd /home/admin/rtorrent/download  
-wget https://www.monstaftp.com/downloads/monsta_ftp_2.8.2_install.zip
-unzip monsta_ftp_2.8.2_install.zip
-rm monsta_ftp_2.8.2_install.zip
-更改文件名为.mftp
-然后登陆IP:999/.mftp
-大功告成
+      <p itemprop="description">cd /home/admin/rtorrent/download  <br />
+wget https://www.monstaftp.com/downloads/monsta_ftp_2.8.2_install.zip <br />
+unzip monsta_ftp_2.8.2_install.zip <br />
+rm monsta_ftp_2.8.2_install.zip <br />
+更改文件名为.mftp <br />
+然后登陆IP:999/.mftp <br />
+大功告成 
 <br /></p> 
      </div> 
      <input type="hidden" id="isDetail" /> 
